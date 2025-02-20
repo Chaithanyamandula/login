@@ -1,0 +1,12 @@
+a={'asaph':30,'akhil':29}
+print(a['asaph'])
+a.pop('akhil')
+print('Removing the item : ',a)
+# a.popitem()
+# print('Display the last updated item : ')
+print(a)
+x=a.keys()
+print(x)
+g=a.values()
+print(g)
+print(type(a))

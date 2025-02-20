@@ -1,0 +1,10 @@
+a=('a','b','c')
+print('Using index :')
+print(a[0])
+print(a[1])
+print(a[2])
+print('Using loop : ')
+for i in a:
+    print(i)
+print('Length of Tuple : ',len(a))
+print('Count of Tuple : ', a.count(10))
